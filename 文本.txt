@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>应乐恒的个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .intro, .social-media, .gallery {
+            margin-bottom: 2em;
+        }
+        .social-media a {
+            margin-right: 1em;
+            color: #333;
+            text-decoration: none;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>应乐恒的个人网页</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h2>关于我</h2>
+            <p>大家好，我是应乐恒，一名热爱摄影的摄影师。我在小红书、微博和Instagram上都叫“乐乐杀猪了”。</p>
+        </section>
+        <section class="social-media">
+            <h2>社交媒体</h2>
+            <a href="https://www.xiaohongshu.com/user/乐乐杀猪了" target="_blank">小红书</a>
+            <a href="https://www.weibo.com/u/乐乐杀猪了" target="_blank">微博</a>
+            <a href="https://www.instagram.com/乐乐杀猪了" target="_blank">Instagram</a>
+        </section>
+        <section class="gallery">
+            <h2>摄影作品展示</h2>
+            <img src="your-photo1.jpg" alt="摄影作品1">
+            <img src="your-photo2.jpg" alt="摄影作品2">
+            <img src="your-photo3.jpg" alt="摄影作品3">
+            <!-- 添加更多图片时，可按照上面格式添加 -->
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 应乐恒. 版权所有.</p>
+    </footer>
+</body>
+</html>
